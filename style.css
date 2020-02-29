@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+main {
+  background-image: url(./images/hero.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  height: 167vh;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 70% 20% 10%;
+  grid-template-areas:
+    "nav nav nav nav"
+    "pic-1 pic-2 pic-3 pic-4 "
+    "footer footer footer footer ";
+}
+
+.hero {
+  display: grid;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
+  color: whitesmoke;
+  font-size: 10em;
+  text-align: center;
+}
+nav {
+  display: grid;
+  grid-area: nav;
+}
+nav>button,input{
+  display: flex;
+}
+button {
+  background-color: linear-gradient(gray, darkgray);
+}
+
+.link-picture-1 {
+  background-image: url(./images/iphone5s-1.jpg);
+  background-size: cover;
+  grid-area: pic-1;
+}
+
+.link-picture-2 {
+  background-image: url(./images/iphone5c-2.jpg);
+  background-size: cover;
+  grid-area: pic-2;
+}
+
+.link-picture-3 {
+  background-image: url(./images/30years-3.jpg);
+  background-size: cover;
+  grid-area: pic-3;
+}
+
+.link-picture-4 {
+  background-image: url(./images/quality-control-4.jpg);
+  background-size: cover;
+  grid-area: pic-4;
+}
+footer {
+  grid-area: footer;
+  font-size: 10em;
+  display: flex;
+  text-decoration: none;
+}
+footer > p {
+}

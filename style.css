@@ -2,40 +2,80 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
 main {
-  background-image: url(./images/hero.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
   display: grid;
-  height: 167vh;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 70% 20% 10%;
+  grid-template-columns: 25% 25% 25% 25% 25%;
+  grid-template-rows: 550px 200px 100px;
   grid-template-areas:
-    "nav nav nav nav"
+    "hero hero hero hero"
     "pic-1 pic-2 pic-3 pic-4 "
-    "footer footer footer footer ";
+    "footer footer footer footer";
+  gap: 2px;
 }
 
 .hero {
-  display: grid;
+  background-image: url(./images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
     sans-serif;
   color: whitesmoke;
-  font-size: 10em;
+  font-size: 0.8em;
   text-align: center;
+  grid-area: hero;
 }
+
 nav {
-  display: grid;
+  background: linear-gradient(0deg, #9c9c9c, #5f5f5f 50%, #424242);
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #6d6d6d;
+  border-radius: 9px;
+  height: 35px;
+  align-items: center;
+  list-style-type: none;
+  width: 70%;
+  margin: 90px auto;
   grid-area: nav;
 }
-nav>button,input{
-  display: flex;
+/* input {
+  font-family: "Fontawesome";
+  border: 1px solid red;
+} */
+.search-bar:before {
+  font-family: "FontAwesome";
+  color: red;
+  position: relative;
+  left: -5px;
+  content: "\f007";
 }
-button {
-  background-color: linear-gradient(gray, darkgray);
+
+#search-bar > .search-icon {
+  position: absolute;
+  margin: 200px;
+}
+
+li {
+  width: 150px;
+  border-right: 1px solid #6b6b6b;
+}
+
+#search-bar {
+  background: linear-gradient(0deg, #9c9c9c, #5f5f5f 50%, #424242);
+  width: 90px;
+  border-radius: 12px;
+  margin: 0 10px;
+  box-shadow: 10px 10px rgb(165, 13, 13);
+}
+
+#search-bar:focus {
+  background-color: white;
+  width: 250px;
+  border-radius: 12px;
+  transition: 0.5s;
 }
 
 .link-picture-1 {
@@ -63,9 +103,7 @@ button {
 }
 footer {
   grid-area: footer;
-  font-size: 10em;
+  font-size: 0.8em;
   display: flex;
   text-decoration: none;
-}
-footer > p {
 }

@@ -20,7 +20,12 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 bottom;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+  font-family:
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
     sans-serif;
   color: whitesmoke;
   font-size: 0.8em;
@@ -41,12 +46,8 @@ nav {
   margin: 90px auto;
   grid-area: nav;
 }
-/* input {
-  font-family: "Fontawesome";
-  border: 1px solid red;
-} */
-.search-bar:before {
-  font-family: "FontAwesome";
+
+.search-bar::before {
   color: red;
   position: relative;
   left: -5px;
@@ -101,6 +102,7 @@ li {
   background-size: cover;
   grid-area: pic-4;
 }
+
 footer {
   grid-area: footer;
   font-size: 0.8em;

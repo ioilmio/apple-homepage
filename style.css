@@ -7,7 +7,7 @@
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 550px 200px 50px 50px;
+  grid-template-rows: 550px 200px 100px;
   grid-template-areas:
     "hero hero hero hero"
     "pic-1 pic-2 pic-3 pic-4"
@@ -42,24 +42,6 @@ main {
   font-size: 2em;
   font-weight: 100;
   margin: 20px 20%;
-}
-
-ul {
-  display: flex;
-}
-
-a {
-  text-decoration: none;
-}
-
-li > a {
-  text-decoration: none;
-  color: white;
-  margin: 0 auto;
-}
-
-li > a:hover {
-  text-decoration: none;
 }
 
 .hero h3 > a {
@@ -102,13 +84,9 @@ span {
   justify-items: center;
   align-items: center;
   height: 35px;
-  padding-right: 50px;
+  padding: 0 50px;
   border-right: 1px solid #6b6b6b;
   text-shadow: rgb(87, 87, 87) -1px -1px;
-}
-
-span > i {
-  padding-left: 50px;
 }
 
 #search-bar {
@@ -125,24 +103,26 @@ span > i {
   border-top-right-radius: 12px;
   transition: 0.5s;
   color: #424242;
-  text-indent: 20px;
-  margin: 0 auto;
+  text-indent: 22px;
+  padding-right: 10px;
+  margin: 0 auto 0 auto;
 }
 
 .input-icon {
   display: inline;
   position: relative;
-  margin: auto 10px;
+  margin: auto 10px auto 10px;
 }
 
 .input-icon > i {
   font-size: 12px;
   position: absolute;
   top: 6px;
-  left: 5px;
-  margin-right: 5px;
+  left: 10px;
+  margin-right: 10px;
   text-align: right;
   border-left: none;
+  color: #424242;
 }
 
 .link-picture-1 > a > img {

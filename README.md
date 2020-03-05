@@ -1,41 +1,32 @@
-# Project Name
+# Apple Homepage Clone
 
-> One paragraph statement about the project.
+> This project is about making an accurate cloen of the Apple homepage.
 
-![screenshot](./app_screenshot.png)
+![screenshot](Screenshot_2020-03-05 Apple©.png)
 
-Additional description about the project and its features.
+Clone of the homepage semi responsive design nav bar with icon inside input field that resize when on focus
+image with lins to the same page and floated footer
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Html5
+- CSS3
+- Love 
+- Patience
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/ioilmio/apple-homepage/development/index.html)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Just a pc and internet connection
 
 
 
@@ -43,21 +34,17 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ioilmio](https://github.com/ioilmio)
+- Twitter: [@ioilmio](https://twitter.com/ioilmio)
+- Linkedin: [linkedin](https://www.linkedin.com/in/illuminato-salvatore)
 
-👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ioilmio/apple-homepage/issues).
 
 ## Show your support
 

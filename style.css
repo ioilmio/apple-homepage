@@ -79,42 +79,36 @@ li > a:hover {
 }
 
 nav {
-  background: linear-gradient(0deg, #9c9c9c, #424242);
   display: flex;
   justify-content: space-around;
-  border-radius: 6px;
-  height: 35px;
   align-items: center;
-  list-style-type: none;
-  width: 70%;
+  text-align: center;
+  height: 40px;
+  width: 90%;
   margin: 80px auto;
-  grid-area: nav;
+  background: linear-gradient(0deg, #9c9c9c, #424242);
+  border-radius: 6px;
+  list-style-type: none;
 }
 
-.nav-bar-button {
+nav > div {
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
-li {
-  display: flex;
-  justify-content: center;
+span {
+  display: inline-flex;
+  justify-items: center;
   align-items: center;
-  flex: 1 1 0;
   height: 35px;
-  width: 100px;
-  margin: 0;
+  padding-right: 50px;
   border-right: 1px solid #6b6b6b;
   text-shadow: rgb(87, 87, 87) -1px -1px;
 }
 
-li i {
-  font-size: 1.5em;
-  text-shadow: rgb(87, 87, 87) -1px -1px;
-}
-
-li:hover {
-  background-color: #424242;
+span > i {
+  padding-left: 50px;
 }
 
 #search-bar {
@@ -122,7 +116,6 @@ li:hover {
   width: 100px;
   border-radius: 12px;
   margin: 0 auto;
-  padding: 0 25px;
   color: #424242;
 }
 
@@ -139,45 +132,40 @@ li:hover {
 .input-icon {
   display: inline;
   position: relative;
-  margin: auto auto;
+  margin: auto 10px;
 }
 
-.input-icon::after {
-  font-family: "FontAwesome";
-  content: "\f002";
+.input-icon > i {
+  font-size: 12px;
   position: absolute;
-  top: 4px;
+  top: 6px;
   left: 5px;
   margin-right: 5px;
   text-align: right;
   border-left: none;
 }
 
-.link-picture-1 {
-  background-image: url(./images/iphone5s-1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.link-picture-1 > a > img {
+  width: 100%;
+  height: auto;
   grid-area: pic-1;
 }
 
-.link-picture-2 {
-  background-image: url(./images/iphone5c-2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.link-picture-2 > a > img {
+  width: 100%;
+  height: auto;
   grid-area: pic-2;
 }
 
-.link-picture-3 {
-  background-image: url(./images/30years-3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.link-picture-3 > a > img {
+  width: 100%;
+  height: auto;
   grid-area: pic-3;
 }
 
-.link-picture-4 {
-  background-image: url(./images/quality-control-4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+.link-picture-4 > a > img {
+  width: 100%;
+  height: auto;
   grid-area: pic-4;
 }
 
@@ -186,12 +174,19 @@ li:hover {
   font-size: 0.7em;
   text-decoration: none;
   margin-left: 70px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #info {
   float: left;
   clear: both;
-  margin-right: 100px;
-  grid-area: info;
+  margin-right: 200px;
+}
+
+#copyright {
+  margin-top: 20px;
+}
+
+#footer-link {
+  margin-left: 100px;
 }

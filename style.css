@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 2px;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -19,40 +23,54 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 bottom;
-  font-family:
-    "Lucida Grande",
-    "Lucida Sans Unicode",
-    Helvetica,
-    Arial,
-    Verdana,
-    sans-serif;
   color: whitesmoke;
   font-size: 0.9em;
   text-align: center;
   grid-area: hero;
+  margin-bottom: 2px;
 }
 
 .hero h1 {
   font-size: 5em;
   font-weight: 100;
-  margin: 0 20%;
+  font-family:
+    'Roboto',
+    sans-serif;
 }
 
 .hero h4 {
   font-size: 2em;
-  font-weight: 100;
+  font-weight: 200;
   margin: 20px 20%;
+  font-family:
+    "Roboto",
+    "Open sans condensed",
+    sans-serif;
+}
+
+.fab {
+  font-size: 1.55em;
 }
 
 nav a {
   text-decoration: none;
-  color: inherit;
-  font-family: 'Open Sans Condensed', sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family:
+    'Roboto',
+    sans-serif;
 }
 
 footer a {
   text-decoration: none;
   color: cornflowerblue;
+}
+
+.hero h3 {
+  font-family:
+    'Roboto',
+    sans-serif;
+  font-weight: 300;
 }
 
 .hero h3 > a {
@@ -100,23 +118,23 @@ span {
   text-shadow: rgb(87, 87, 87) -1px -1px;
 }
 
-#search-bar {
+.search-bar {
   background: linear-gradient(0deg, #9c9c9c, #424242);
-  width: 100px;
+  width: 90px;
   border-radius: 12px;
   margin: 0 auto;
   color: #424242;
 }
 
-#search-bar:focus {
+.search-bar:focus {
   background: white;
-  width: 140px;
+  width: 130px;
   border-top-right-radius: 12px;
   transition: 0.5s;
   color: #424242;
   text-indent: 22px;
   padding-right: 10px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 .input-icon {
@@ -167,19 +185,19 @@ span {
   margin-left: 70px;
   margin-top: 20px;
   color: #5c5c5c;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open sans condensed", sans-serif;
 }
 
-#info {
+.info {
   float: left;
   clear: both;
   margin-right: 200px;
 }
 
-#copyright {
+.copyright {
   margin-top: 20px;
 }
 
-#footer-link {
+.footer-link {
   margin-left: 100px;
 }

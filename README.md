@@ -2,10 +2,11 @@
 
 > This project is about making an accurate clone of the Apple homepage.
 
-!["Screenshot_2020-03-05 Apple©.png"](Screenshot_2020-03-05 Apple©.png)
+![Screenshot_2020-03-05 Apple©](https://user-images.githubusercontent.com/51195150/76088068-ac254900-5fb7-11ea-903b-ae427f4dc3df.png)
 
-Clone of the homepage semi-responsive design nav bar with icon inside input field that resize when on focus
-image with lins to the same page and floated footer
+Clone of the Apple homepage in semi-responsive design;
+nav bar with icon inside input field that resize when on focus;
+images with links to the same page and floated footer;
 
 ## Built With
 

@@ -44,6 +44,17 @@ main {
   margin: 20px 20%;
 }
 
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
 .hero h3 > a {
   font-size: 1.5em;
   font-weight: 100;
@@ -155,6 +166,8 @@ span {
   text-decoration: none;
   margin-left: 70px;
   margin-top: 20px;
+  color: #5c5c5c;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #info {
